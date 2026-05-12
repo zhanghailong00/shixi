@@ -4,6 +4,16 @@ Agent Middleware 是一种强大的机制，可以在智能体的生命周期中
 通过使用中间件，我们可以在智能体执行工具调用、生成回复等关键步骤之前或之后进行拦截和处理，从而实现日志记录、权限控制、输入输出过滤等功能。
 在这个示例中，我们将创建一个简单的智能体，并为其添加三个官方。
 """
+"""
+LangChain 中的 middleware 主要用于增强 Agent 执行流程控制能力，常见包括：
+
+PII Middleware：用于敏感信息脱敏
+Summarization Middleware：用于长上下文压缩
+Human-in-the-loop Middleware：用于关键工具调用的人工审核
+Tool Filtering Middleware：用于工具权限控制
+Logging Middleware：用于执行链路观测与调试
+Retry Middleware：用于失败重试与容错处理
+"""
 
 # ===================== 环境配置 =====================
 from dotenv import load_dotenv
