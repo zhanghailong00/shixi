@@ -1,4 +1,5 @@
-#流式输出
+"""#流式输出"""
+
 from dotenv import load_dotenv
 load_dotenv()
 
