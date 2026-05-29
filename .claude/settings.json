@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd *)",
+      "Bash(python *)",
+      "Bash(rm *)",
+      "Write",
+      "Edit",
+      "NotebookEdit",
+      "Read",
+      "Glob",
+      "Grep"
+    ]
+  }
+}
